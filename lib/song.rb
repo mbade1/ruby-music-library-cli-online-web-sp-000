@@ -57,7 +57,7 @@ class Song
     array = song.split(" - ")
     artist = array[0]
     title = array[1]
-    
+
 
   end
 
