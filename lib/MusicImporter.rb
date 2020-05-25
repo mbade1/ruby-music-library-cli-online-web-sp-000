@@ -1,15 +1,13 @@
 class MusicImporter
 
-  attr_accessor :path
-
-  @@all_files = []
+  attr_accessor :path, :song, :artist, :genre
 
   def initialize(path)
     @path = path
-    @@all_files << self
+
   end
 
   def files
-    @@all
+    Dir.entries
   end
 end
