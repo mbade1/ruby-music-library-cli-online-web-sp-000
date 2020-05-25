@@ -13,20 +13,20 @@ class MusicLibraryController
       puts "To list all of your songs, enter 'list songs'."
       puts "What would you like to do?"
 
-    case input
-      when "list songs"
-        list_songs_
-      when "list artists"
-        list_artists
-      when "list genres"
-        list_genres
-      when "list artist"
-        list_songs_by_artist
-      when "list genre"
-        list_songs_by_genre
-      when "play_song"
-        play_song
-      end
+    # case input
+    #   when "list songs"
+    #     list_songs_
+    #   when "list artists"
+    #     list_artists
+    #   when "list genres"
+    #     list_genres
+    #   when "list artist"
+    #     list_songs_by_artist
+    #   when "list genre"
+    #     list_songs_by_genre
+    #   when "play_song"
+    #     play_song
+    #   end
     end
   end
 
