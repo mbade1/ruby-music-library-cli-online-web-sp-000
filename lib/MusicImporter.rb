@@ -7,6 +7,6 @@ class MusicImporter
   end
 
   def files
-    Dir.entires(@path).each {|file| file.end_with?(".mp3")}
+    Dir.entries(@path).each {|file| file.end_with?(".mp3")}
   end
 end
