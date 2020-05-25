@@ -7,6 +7,6 @@ class MusicImporter
   end
 
   def files
-    Dir.entries
+    Dir["/path/to/directory/*.rb"].each {|file| require file }
   end
 end
