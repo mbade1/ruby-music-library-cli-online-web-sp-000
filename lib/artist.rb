@@ -40,14 +40,12 @@ class Artist
     end
     song
   end
-    #if the current artist is already listed,
-      #don't add it.
-    #otherwise, do add it
-    #if the song is already
 
   def songs
     @songs
   end
+
+  def genres
 
 
 
